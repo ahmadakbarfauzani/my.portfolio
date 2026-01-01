@@ -85,12 +85,11 @@ export const Hero = () => {
 
                 {/* CTAs */}
                 <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-
                     <Button 
-                          size="lg" 
-                              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-    >
-                    Contact Me <ArrowRight className="w-5 h-5 ml-2" />
+                        size="lg" 
+                            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                        >
+                            Contact Me <ArrowRight className="w-5 h-5 ml-2" />
                     </Button>
 
     {/* Tombol Download CV - Membuka/Download file */}
@@ -108,7 +107,11 @@ export const Hero = () => {
                         { icon: Github, href: "https://github.com/ahmadakbarfauzani"},
                         { icon: Instagram, href: "https://instagram.com/akbarfzann"},
                      ].map((social, idx) => (
-                        <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
+                        <a key={idx} 
+                        href={social.href} 
+                        target="_blank"
+                        rel="noreferrer"
+                        className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                             {<social.icon  className="w-5 h-5"/>}
                         </a>
                      ))}
