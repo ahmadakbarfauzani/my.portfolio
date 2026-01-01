@@ -20,7 +20,7 @@ const contactInfo = [
         icon: MapPin,
         label: "Location",
         value: "Jawa Barat, IDN",
-        href: "#",
+        href: "https://www.google.com/maps/place/West+Java/@-6.904033,106.748386,8z/",
     },
 ]
 
@@ -64,8 +64,8 @@ export const Contact = () => {
             message: "Message sent succesfully! I'll get back to you soon.",
         });
         setFormData({ name: "", email: "", message: "" });
-        } catch (err) {
-            console.error("EmailJS error:", err);
+        } catch (error) {
+            console.error("EmailJS error:", error);
             setSubmitStatus({
                 type: "error",
                 message: 
@@ -122,26 +122,26 @@ export const Contact = () => {
                         onChange={(e) => 
                             setFormData({...formData, name: e.target.value })
                         }
-                        className="w-full px-4 py-3 bg-surface rounded-xl border-border focus:border-primary focus:ring-primary outline-none transition-all"
+                        className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
                         />
                     </div>
                     
                     <div>
                         <label 
                         htmlFor="email"
-                        type="email" 
                         className="block text-sm font-medium mb-2"
                         >
                             Email
                             </label>
                         <input 
                         required
+                        type="email" 
                         placeholder="your@email.com"
                         value={formData.email}
                         onChange={(e) => 
                             setFormData({...formData, email: e.target.value })
                         }
-                        className="w-full px-4 py-3 bg-surface rounded-xl border-border focus:border-primary focus:ring-primary outline-none transition-all"/>
+                        className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                     </div>
 
                     <div>
@@ -158,7 +158,7 @@ export const Contact = () => {
                             setFormData({...formData, message: e.target.value })
                         }
                         placeholder="your message"
-                        className="w-full px-4 py-3 bg-surface rounded-xl border-border focus:border-primary focus:ring-primary outline-none transition-all resize-none"
+                        className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
                         />
                     </div>
 
@@ -209,6 +209,8 @@ export const Contact = () => {
                         <a
                             key={i}
                             href={item.href}
+                            target="_blank" 
+                            rel="noreferrer"
                             className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
                         >
                             <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300" >

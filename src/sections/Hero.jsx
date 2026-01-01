@@ -69,8 +69,8 @@ export const Hero = () => {
                         <br />
                         experience with
                         <br />
-                        <span className="font-serif italic font-formal text-white">
-                            precion.
+                        <span className="font-serif italic font-normal text-white">
+                            precision.
                         </span>
                     </h1>
                     <p
@@ -97,10 +97,10 @@ export const Hero = () => {
                 <div className="flex items-center gap-4 animate-fade-in animate-fade-in animation-delay-400">
                     <span className="text-sm text-muted-foreground">Follow: </span>
                     {[
-                        { icon: Github, href: "#"},
-                        { icon: Instagram, href: "#"},
+                        { icon: Github, href: "https://github.com/ahmadakbarfauzani"},
+                        { icon: Instagram, href: "https://instagram.com/akbarfzann"},
                      ].map((social, idx) => (
-                        <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primay transition-all duration-300">
+                        <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                             {<social.icon  className="w-5 h-5"/>}
                         </a>
                      ))}
