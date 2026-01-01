@@ -7,8 +7,8 @@ const projects = [
       "Poster design focused on strong visual hierarchy, clear typography, and clean layout.",
       image: "/Project/Project 1.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%201.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%201.png",
     },
     {
     title: "Magazine",
@@ -16,8 +16,8 @@ const projects = [
       "Magazine design emphasizing layout consistency, typography, and visual storytelling.",
       image: "/Project/Project 2.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%202.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%202.png",
     },
     {
     title: "Packaging",
@@ -25,8 +25,8 @@ const projects = [
       "Packaging design that balances aesthetics and functionality to enhance product appeal.",
       image: "/Project/Project 3.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%203.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%203.png",
     },
     {
     title: "UI/UX",
@@ -34,8 +34,8 @@ const projects = [
       "UI/UX design focused on intuitive navigation, usability, and clean interface design.",
       image: "/Project/Project 4.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%204.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%204.png",
     },
 ];
 
