@@ -2,40 +2,36 @@ import { Github, ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
     {
-    title: "Poster",
-    description:
-      "Poster design focused on strong visual hierarchy, clear typography, and clean layout.",
+      title: "Poster",
+      description: "Poster design focused on strong visual hierarchy, clear typography, and clean layout.",
       image: "/Project/Project-1.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%201.png",
-      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%201.png",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-1.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-1.png",
     },
     {
-    title: "Magazine",
-    description:
-      "Magazine design emphasizing layout consistency, typography, and visual storytelling.",
+      title: "Magazine",
+      description: "Magazine design emphasizing layout consistency, typography, and visual storytelling.",
       image: "/Project/Project-2.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%202.png",
-      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%202.png",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-2.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-2.png",
     },
     {
-    title: "Packaging",
-    description:
-      "Packaging design that balances aesthetics and functionality to enhance product appeal.",
+      title: "Packaging",
+      description: "Packaging design that balances aesthetics and functionality to enhance product appeal.",
       image: "/Project/Project-3.png",
       tags: ["Photoshop", "Illustrator"],
-      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%203.png",
-      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%203.png",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-3.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-3.png",
     },
     {
-    title: "UI/UX",
-    description:
-      "UI/UX design focused on intuitive navigation, usability, and clean interface design.",
+      title: "UI/UX",
+      description: "UI/UX design focused on intuitive navigation, usability, and clean interface design.",
       image: "/Project/Project-4.png",
       tags: ["Photoshop", "Illustrator", "Figma"],
-      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%204.png",
-      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%204.png",
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-4.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project-4.png",
     },
 ];
 
