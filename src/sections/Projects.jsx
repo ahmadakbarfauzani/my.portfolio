@@ -33,9 +33,9 @@ const projects = [
     description:
       "UI/UX design focused on intuitive navigation, usability, and clean interface design.",
       image: "/Project/Project 4.png",
-      tags: ["Photoshop", "Illustrator"],
-      link: "",
-      github: "",
+      tags: ["Photoshop", "Illustrator", "Figma"],
+      link: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%204.png",
+      github: "https://github.com/ahmadakbarfauzani/my.portfolio/blob/main/public/Project/Project%204.png",
     },
 ];
 
